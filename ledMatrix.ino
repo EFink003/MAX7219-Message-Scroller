@@ -1,6 +1,6 @@
   #include "LedControl.h"
 
-  LedControl lc=LedControl(12,10,11,1);
+  LedControl lc=LedControl(12,10,11,1); //DIN is pin 12, CS is pin 11, CLK is pin 10, running 5V
  
 
 void printMessage(String message) {//columns ALL VERIFIED
